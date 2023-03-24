@@ -1,0 +1,4 @@
+name: NoPluginCommand
+version: '${version}'
+main: pl.sloudpl.noplugincommand.NoPluginCommand
+api-version: 1.19

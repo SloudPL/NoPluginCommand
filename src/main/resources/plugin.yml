@@ -1,4 +1,6 @@
 name: NoPluginCommand
 version: '${version}'
 main: pl.sloudpl.noplugincommand.NoPluginCommand
+author: SloudPL
+website: https://sloud.pl/
 api-version: 1.19

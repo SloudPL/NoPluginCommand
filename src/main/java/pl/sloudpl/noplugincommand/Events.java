@@ -38,4 +38,24 @@ public class Events implements Listener {
             }
         }
     }
+    if(!p.isOp() && !p.hasPermission("sloudpl.admincommands")) {
+            if (cmd.contains("/ban")
+                    || cmd.contains("/kick")
+                    || cmd.contains("/mute")
+                    || cmd.contains("/banip")
+                    || cmd.contains("/ban-ip")
+                    || cmd.contains("/kill")
+                    || cmd.contains("/tp")
+                    || cmd.contains("/sprawdz")
+                    || cmd.contains("/unban")
+                    || cmd.contains("/unmute")
+                    || cmd.contains("/nuke")
+                    || cmd.contains("/")
+                    || cmd.contains("/bukkit:help")) {
+                e.setCancelled(true);
+                p.sendMessage("§cYou are not allowed to use this command!");
+                return;
+            }
+        }
+    }
 }
